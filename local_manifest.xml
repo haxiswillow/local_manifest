@@ -1,14 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-
- <!-- Trees -->
- <project path="device/xiaomi/lava" name="Akash23q2/android_device_xiaomi_lava.git" remote="github" revision="palladium" />
- <project path="device/xiaomi/mt6768-common" name="Akash23q2/android_device_xiaomi_mt6768-common.git" remote="github" revision="lineage-18.1" />
- <project path="vendor/xiaomi/lava" name="Redmi-MT6768/android_vendor_xiaomi_lava.git" remote="github" revision="eleven" />
- <project path="kernel/xiaomi/mt6768" name="Redmi-MT6768/android_kernel_xiaomi_mt6768.git" remote="github" revision="eleven" />
-  
-  <!-- Extras -->
-  <project path="device/mediatek/sepolicy_vndr" name="PixelExperience/device_mediatek_sepolicy_vndr" remote="github" revision="eleven"/>
-  <project path="vendor/mediatek/interfaces" name="PixelExperience/vendor_mediatek_interfaces" remote="github" revision="eleven"/>
-
+    <remote name="jhonnytech90" fetch="https://github.com/jhonnytech90" />
+            
+  <project path="device/asus/A001D" name="android_device_asus_A001D" remote="jhonnytech90" revision="eleven" />
+  <project path="vendor/asus/A001D" name="vendor_asus_A001D" remote="jhonnytech90" revision="11" />
+  <project path="kernel/asus/A001D" name="kernel_asus_A001D" remote="jhonnytech90" revision="11" />
 </manifest>
